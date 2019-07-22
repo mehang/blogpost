@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title> My Blog </title>
+	</head>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<link rel="stylesheet" href="blog.css">
+	<link rel="stylesheet" href="all.css">
+	<body>
+	<div id = "main">
+		<div id= "menu" class="pure-menu pure-menu-horizontal" role="Navigation">	
+			<ul class="pure-menu-list">
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Home </a></li>
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Posts </a></li>
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Gallery</a></li>
+			</ul>
+		</div>
+		<div  id = "blog" role="main">
+		<h2> Into the Mountains </h2>
+			<p> Back in October 2017, I went to one of my adventurous trip to Manang and Tilicho Lake - lake situated at elevation of 16,000 ft. </p>
+			<img src="lake_tilicho.jpg" alt="Mt Tilicho and Lake Tilicho" />
+			<h3> Day 1 </h3>	
+			<p>
+			We were group of 6 people with three motorcycles travelling towards north western part of the Nepal.
+			We started our trip at 6 am in the morning as we have set a target of reaching Chame, Manang which include 40 miles of mountain road. 
+			We were moving according to the plan and reached Besisahar, Lamjung with no delay. Then came the long mountainous road with lots of waterfalls, streams and rocky roads. 
+			Because of difficult terrain, we had to stop multiple times, fix our bikes and also our back ( road was very tough). finally after 5 hours of bumpin g road, we reached Chame.  
+			
+			</p>
+			<h3> Day 2 </h3>
+			<h4> Chame to Khansar </h4>
+		</div>
+		<div id="comments" role="contentinfo">
+			<form class ="pure-form pure-form-stacked">
+				<fieldset>
+					<legend> Comments </legend>
+					<label for = "Name" > Name </label>
+					<input id = "name" type="text" class="pure-input-round"/> 
+					<label for = "Comment" > Comment </label>
+					<textarea rows="4" cols="50" id = "user_comment"> </textarea> 
+				</fieldset>
+			</form>
+			<button type = "submit" class="pure-button" id="comment_post"> Post </button>
+		</div>
+		<div id ="message" role="alert" class ="alert-message">Here is the message </div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="blog.js"></script>
+	<script src="all.js"></script>
+	</body>
+	
+</html>
+</html>
