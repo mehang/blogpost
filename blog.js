@@ -11,7 +11,7 @@ $("#comment_post").click(function(){
 		}
 	}
 	else{
-		$("#message-body").text("Comment Uploaded!")
+		$("#message-body").text("Comment Posted!")
 	}
 	document.getElementById("message").className = "";
 });
