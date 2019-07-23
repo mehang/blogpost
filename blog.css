@@ -59,3 +59,8 @@ img{
 #footer{
 	width: 300px;
 }
+.my-table{
+	text-align: center;
+	width:700px;
+	margin-top: 20px;
+}
