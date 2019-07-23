@@ -4,12 +4,12 @@
 	margin: 20px;
 	
 }
-#main {
+#mainPanel {
 	margin:30px;
 }
 img{
-	width:400px;
-	height:200px;
+	width:450px;
+	height:250px;
 	float: left;
 	margin: 10px;  
 	overflow:auto;
@@ -48,4 +48,15 @@ img{
 }
 .pure-button{
 	background-color:white;
+}
+.my-pure-button{
+	background-color:rgb(56, 144, 245);
+	color: white;
+}
+.legend{
+	font-size: 18px;
+	font-weight: bold;
+}
+#footer{
+	width: 300px;
 }

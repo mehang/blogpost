@@ -1,8 +1,14 @@
 $("#comment_post").click(function(){
-	var name = $("name").val();
-	var comment = $("user_comment").val();
+	var name = $("#name").val();
+	var comment = $("#user_comment").val();
+	
 	if (name == "" || comment == ""){
-		$("#message-body").text("Please Valid Name or Comment! ");
+		if (name == ""){ 
+		$("#message-body").text("Please Provide Valid Name!!");
+		}
+		else{
+		$("#message-body").text("Please Provide Valid Name!!");
+		}
 	}
 	else{
 		$("#message-body").text("Comment Uploaded!")
